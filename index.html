@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+ // Q.1  What are the differences between var, let and const?
+        // var and let create variables that can be re-assigned another value.
+        // const creates "constant" variables that cannot be reassigned another value.
+        // Var declarations are function scoped. Let and Const are block scoped. Function scope is created by declaring a function. Block scope is created by if statements, for loops, while loops etc. Let’s understand this with an example.
+        // Var allows duplicate identifiers. Let and Const do not allow duplicate identifiers.
+        // Values declared with Var and Let variables can be re-assigned. Values declared with const variables cannot be re-assigned.
+        // Var declarations are hoisted and initialized with undefined. Let and Const are hoisted but not initialized with undefined.
+
+// Q.2 Difference between undefined vs not defined vs NaN?
+//     NaN means the value is Not A Number. Null is a value which you can use when you yourself want assign a empty value to a variable.
+//     Undefined is a value which automatically gets assign to a variable when you yourself have not assigned anything to a variable.
+
+// Q.3 What is difference between null and undefined and where to use what?
+        // Null: It is the intentional absence of the value. It is one of the primitive values of JavaScript.
+        // Undefined: It means the value does not exist in the compiler. It is the global object.
+        // JavaScript always assigns undefined to indicate the absence of a value by default, and it never automatically assigns null as a value.
+        // A variable will only return null if a programmer or an API specifically assigns the value null to the variable.
+        // Since undefined is the default value assigned by JavaScript to uninitialized variables, if you want to indicate the absence of a deal explicitly,
+        // always use null instead of undefined to avoid confusion.
+
+// Q.4  What is execution context?
+//         When the JavaScript engine scans a script file, it makes an environment called the Execution Context that handles the entire transformation and execution of the code.
+//         During the context runtime, the parser parses the source code and allocates memory for the variables and functions.
+//         There are two types of Execution Context in JavaScript:
+
+//         (1) Global Execution Context (GEC)
+//         Whenever the JavaScript engine receives a script file, it first creates a default Execution Context known as the Global Execution Context (GEC).
+//         The GEC is the base/default Execution Context where all JavaScript code that is not inside of a function gets executed.
+//         For every JavaScript file, there can only be one GEC.
+
+//         (2) Function Execution Context (FEC)
+//         Whenever a function is called, the JavaScript engine creates a different type of Execution Context known as a Function Execution Context (FEC)
+//         within the GEC to evaluate and execute the code within that function.
+//         Since every function call gets its own FEC, there can be more than one FEC in the run-time of a script.
+
+// Q.5 What is use of prompt in JavaScript? 
+//         prompt() method is used to display a dialog box with an optional message prompting the user to input some text.
+//         It is often used if the user wants to input a value before entering a page. It returns a string containing the text entered by the user, or null.
+
+// Q.6 Why JavaScript is Dyanmic Language?
+//         JavaScript is a Dyanmic Language because it able to change the underlying type of a variable while the program is running
+//         without causing an error is what makes JavaScript a dynamic language.
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
